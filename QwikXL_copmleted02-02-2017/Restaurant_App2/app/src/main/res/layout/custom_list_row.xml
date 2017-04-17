@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="100dp"
+    android:background="@android:color/transparent">
+    <!--<RatingBar-->
+    <!--android:id="@+id/rate"-->
+    <!--style="?android:attr/ratingBarStyleSmall"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginLeft="5dp"-->
+    <!--android:isIndicator="true"-->
+    <!--android:paddingTop="2dp"-->
+    <!--android:numStars="5"-->
+    <!--android:stepSize="0.2"-->
+    <!--/>-->
+    <ImageView
+        android:id="@+id/im"
+        android:layout_width="110dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="5dp"
+
+        android:layout_marginTop="15dp"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="40dp"
+        android:layout_toRightOf="@+id/im"
+        android:text="khk"
+        android:textColor="@color/dark_hash"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <!--<TextView-->
+    <!--android:id="@+id/specials"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@+id/tv"-->
+    <!--android:layout_marginLeft="5dp"-->
+    <!--android:layout_toRightOf="@+id/im"-->
+    <!--android:text="khk"-->
+    <!--android:textColor="@color/black"-->
+    <!--android:textSize="14sp"-->
+    <!--/>-->
+    <!--<TextView-->
+    <!--android:id="@+id/delivery_minim"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@+id/specials"-->
+    <!--android:layout_marginLeft="5dp"-->
+    <!--android:layout_toRightOf="@+id/im"-->
+    <!--android:text="Delivery Charge $12"-->
+    <!--android:textColor="@color/dhash"-->
+    <!--android:textSize="14sp"-->
+    <!--/>-->
+    <!--<TextView-->
+    <!--android:id="@+id/delivery_charge"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@+id/delivery_minim"-->
+    <!--android:layout_marginLeft="5dp"-->
+    <!--android:layout_toRightOf="@+id/im"-->
+    <!--android:text="Delivery  $12"-->
+    <!--android:textColor="@color/dhash"-->
+    <!--android:textSize="15sp"-->
+    <!--/>-->
+    <!--<TextView-->
+    <!--android:id="@+id/ship"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@+id/delivery_charge"-->
+    <!--android:layout_marginLeft="5dp"-->
+    <!--android:layout_toRightOf="@+id/im"-->
+    <!--android:text="Pickup"-->
+    <!--android:textColor="@color/dhash"-->
+    <!--android:textSize="15sp"-->
+    <!--/>-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/shop_distance"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@+id/im"-->
+    <!--android:layout_marginLeft="5dp"-->
+    <!--android:text=""-->
+    <!--android:textColor="@color/black"-->
+    <!--android:textSize="15sp" />-->
+
+
+</RelativeLayout>

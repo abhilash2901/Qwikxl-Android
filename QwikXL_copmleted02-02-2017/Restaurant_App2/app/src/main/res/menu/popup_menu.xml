@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+        <item
+            android:id="@+id/one"
+            android:icon="@drawable/arrow"
+
+            android:title="Edit Profile"/>
+
+        <item
+            android:id="@+id/two"
+            android:icon="@drawable/arrow"
+            android:title="Edit card details"/>
+
+    <item
+        android:id="@+id/three"
+        android:icon="@drawable/arrow"
+        android:title="Change Password"/>
+
+        <item
+            android:icon="@drawable/arrow"
+            android:id="@+id/four"
+            android:title="Logout"
+            />
+
+
+</menu>

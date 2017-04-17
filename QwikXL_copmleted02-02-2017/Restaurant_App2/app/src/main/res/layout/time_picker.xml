@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/time_picker_back"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="20dp" />
+
+    <com.erz.timepicker_library.TimePicker
+        xmlns:timepicker="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/timePicker"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        timepicker:clock_color="#2c835b"
+        timepicker:dial_color="#FF080E"
+        timepicker:text_color="#FF080E" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:paddingTop="5dp"
+        android:gravity="center_horizontal"
+        android:layout_marginRight="15dp"
+        android:orientation="horizontal">
+
+
+    <Button
+        android:id="@+id/set_time"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/green"
+        android:text="Set Time"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/close_clock"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/green"
+        android:text="Close"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="130dp"
+    android:background="@android:color/transparent"
+
+    >
+
+    <ImageView
+        android:id="@+id/im"
+        android:layout_width="110dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/ic_launcher"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:id="@+id/f_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@+id/im"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:paddingRight="40dp"
+        android:text=""
+        android:textColor="@color/green"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/caption"
+        android:layout_width="fill_parent"
+        android:layout_height="15dp"
+        android:layout_below="@+id/f_name"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="1dp"
+
+        android:layout_toRightOf="@+id/im"
+        android:text=""
+        android:textColor="@color/dark_hash"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/caption"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="3dp"
+        android:layout_toRightOf="@+id/im"
+        android:text=""
+        android:textColor="@color/dark_hash"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/stock"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_below="@+id/price"
+        android:layout_gravity="center"
+        android:layout_marginLeft="25dp"
+
+        android:layout_marginTop="3dp"
+        android:layout_toRightOf="@+id/im"
+        android:text="Item Left :"
+        android:textColor="@color/light_red"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/available_stock"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_below="@+id/price"
+        android:layout_gravity="center"
+        android:layout_marginTop="3dp"
+        android:layout_toRightOf="@+id/stock"
+        android:text=""
+        android:textColor="@color/light_red"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/quant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/stock"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/im"
+        android:text="Quantity"
+        android:textColor="@color/dark_hash"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/quantity"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/stock"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_toRightOf="@+id/quant"
+        android:background="@drawable/gridview_back"
+        android:gravity="center"
+        android:inputType="number"
+        android:text="1"
+
+        android:textColor="@color/dark_hash"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/add_basket"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/stock"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/quantity"
+        android:background="@drawable/button_back"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="center"
+        android:paddingRight="1dp"
+        android:text="+Add to Basket"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+</RelativeLayout>
